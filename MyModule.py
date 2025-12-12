@@ -60,16 +60,3 @@ def login():
         print("Sisselogimine õnnestus!")
     else:
         print("Vale kasutajanimi või parool.")
-
-if __name__ == "__main__":
-    while True:
-        print("\nValikud:\n1. Registreeri\n2. Sisselogimine\n3. Välju")
-        valik = input("Vali: ")
-        if valik == '1':
-            register()
-        elif valik == '2':
-            login()
-        elif valik == '3':
-            break
-        else:
-            print("Vale valik.")
